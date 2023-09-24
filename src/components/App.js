@@ -12,7 +12,7 @@ const App = () => {
   }
   return (
     <div id="main">
-      <input id='input' onChange={getInput(e)}></input>
+      <input id='input' onChange={getInput}></input>
       <button id='button' onClick={showData}>Click</button>
       <p id='text'> Hello my name is {name} and I study at Newton School</p>
     </div>
